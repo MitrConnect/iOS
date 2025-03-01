@@ -9,8 +9,8 @@
 GoogleService-Info.plist
 
 ## Ignore Test files
-MitraTests
-MitraUITests
+MitrTests
+MitrUITests
 
 ## User settings
 xcuserdata/
