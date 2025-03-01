@@ -1,6 +1,6 @@
 //
-//  MitraApp.swift
-//  Mitra
+//  MitrApp.swift
+//  Mitr
 //
 //  Created by Stavan Gandhi on 2/26/25.
 //

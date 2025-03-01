@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '18.0'
 
-target 'Mitra' do
+target 'Mitr' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
@@ -12,12 +12,12 @@ target 'Mitra' do
   pod 'Firebase/Database'
 
 
-  target 'MitraTests' do
+  target 'MitrTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'MitraUITests' do
+  target 'MitrUITests' do
     # Pods for testing
   end
 
