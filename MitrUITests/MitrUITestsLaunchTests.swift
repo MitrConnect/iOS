@@ -1,13 +1,13 @@
 //
-//  MitraUITestsLaunchTests.swift
-//  MitraUITests
+//  MitrUITestsLaunchTests.swift
+//  MitrUITests
 //
-//  Created by Stavan Gandhi on 2/26/25.
+//  Created by Stavan Gandhi on 3/1/25.
 //
 
 import XCTest
 
-final class MitraUITestsLaunchTests: XCTestCase {
+final class MitrUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

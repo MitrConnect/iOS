@@ -1,6 +1,0 @@
-framework module Pods_Mitra {
-  umbrella header "Pods-Mitra-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -7,286 +7,271 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11CA0E03A33846847DEC648C /* Pods_Mitra_MitraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5CA26184AC187CF8D58664 /* Pods_Mitra_MitraUITests.framework */; };
-		143C8B4A2D6F81F00070CA24 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 143C8B492D6F81E80070CA24 /* .gitignore */; };
-		143C8B752D6F872A0070CA24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 143C8B742D6F872A0070CA24 /* GoogleService-Info.plist */; };
-		A71E41891A1F32AF733DD0E3 /* Pods_Mitra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F45BC853D6FA4F82FF8570 /* Pods_Mitra.framework */; };
-		AD8A8BBAD2B1FF655379D2FB /* Pods_MitraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D78669A5A6F4AD8ABA5FFBB /* Pods_MitraTests.framework */; };
+		091870AC03241FE022E04587 /* Pods_Mitr_MitrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681D1FAFFB09A112F9662F48 /* Pods_Mitr_MitrUITests.framework */; };
+		B22DFCB21C67035DB9E12939 /* Pods_Mitr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54EE351ED9DCBA9C018F9D6 /* Pods_Mitr.framework */; };
+		DCC3CBA2ABA050C82492D8C4 /* Pods_MitrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B46E7AC8979971C0149FB3 /* Pods_MitrTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		143C8B192D6F7FA60070CA24 /* PBXContainerItemProxy */ = {
+		14339F142D72E7B3003E06CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 143C8AFB2D6F7F9C0070CA24 /* Project object */;
+			containerPortal = 14339EFB2D72E7AF003E06CD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 143C8B022D6F7F9C0070CA24;
-			remoteInfo = Mitra;
+			remoteGlobalIDString = 14339F022D72E7AF003E06CD;
+			remoteInfo = Mitr;
 		};
-		143C8B232D6F7FA60070CA24 /* PBXContainerItemProxy */ = {
+		14339F1E2D72E7B3003E06CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 143C8AFB2D6F7F9C0070CA24 /* Project object */;
+			containerPortal = 14339EFB2D72E7AF003E06CD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 143C8B022D6F7F9C0070CA24;
-			remoteInfo = Mitra;
+			remoteGlobalIDString = 14339F022D72E7AF003E06CD;
+			remoteInfo = Mitr;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0903266C867E2A453EDD8D7D /* Pods-Mitra-MitraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mitra-MitraUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mitra-MitraUITests/Pods-Mitra-MitraUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		143C8B032D6F7F9C0070CA24 /* Mitra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mitra.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		143C8B182D6F7FA60070CA24 /* MitraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MitraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		143C8B222D6F7FA60070CA24 /* MitraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MitraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		143C8B492D6F81E80070CA24 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		143C8B742D6F872A0070CA24 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		1D78669A5A6F4AD8ABA5FFBB /* Pods_MitraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MitraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44F45BC853D6FA4F82FF8570 /* Pods_Mitra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mitra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E212054F2D91DC34F1522C3 /* Pods-Mitra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mitra.debug.xcconfig"; path = "Target Support Files/Pods-Mitra/Pods-Mitra.debug.xcconfig"; sourceTree = "<group>"; };
-		A6407D9747BF79CF9A07E47D /* Pods-MitraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MitraTests.debug.xcconfig"; path = "Target Support Files/Pods-MitraTests/Pods-MitraTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BA5CA26184AC187CF8D58664 /* Pods_Mitra_MitraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mitra_MitraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB886AAC7525896774DD8BC1 /* Pods-Mitra-MitraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mitra-MitraUITests.release.xcconfig"; path = "Target Support Files/Pods-Mitra-MitraUITests/Pods-Mitra-MitraUITests.release.xcconfig"; sourceTree = "<group>"; };
-		BE439D242371306BC61E5AFB /* Pods-MitraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MitraTests.release.xcconfig"; path = "Target Support Files/Pods-MitraTests/Pods-MitraTests.release.xcconfig"; sourceTree = "<group>"; };
-		E808B683EEB94D21D8FD8968 /* Pods-Mitra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mitra.release.xcconfig"; path = "Target Support Files/Pods-Mitra/Pods-Mitra.release.xcconfig"; sourceTree = "<group>"; };
+		14339F032D72E7AF003E06CD /* Mitr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mitr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14339F132D72E7B3003E06CD /* MitrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MitrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14339F1D2D72E7B3003E06CD /* MitrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MitrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		681D1FAFFB09A112F9662F48 /* Pods_Mitr_MitrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mitr_MitrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E81D7FA8D765A747057093A /* Pods-Mitr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mitr.debug.xcconfig"; path = "Target Support Files/Pods-Mitr/Pods-Mitr.debug.xcconfig"; sourceTree = "<group>"; };
+		75B46E7AC8979971C0149FB3 /* Pods_MitrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MitrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CACC59EF72DEF152843D828 /* Pods-Mitr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mitr.release.xcconfig"; path = "Target Support Files/Pods-Mitr/Pods-Mitr.release.xcconfig"; sourceTree = "<group>"; };
+		8C35C802E92300C3DB11CAE7 /* Pods-MitrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MitrTests.debug.xcconfig"; path = "Target Support Files/Pods-MitrTests/Pods-MitrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5E5021430D70F7EB4386C28 /* Pods-MitrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MitrTests.release.xcconfig"; path = "Target Support Files/Pods-MitrTests/Pods-MitrTests.release.xcconfig"; sourceTree = "<group>"; };
+		C54EE351ED9DCBA9C018F9D6 /* Pods_Mitr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mitr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58757B5C1BF72433232F6EB /* Pods-Mitr-MitrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mitr-MitrUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mitr-MitrUITests/Pods-Mitr-MitrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C855DF76180D7AF4A1780C2B /* Pods-Mitr-MitrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mitr-MitrUITests.release.xcconfig"; path = "Target Support Files/Pods-Mitr-MitrUITests/Pods-Mitr-MitrUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		141DE86B2D6FD9EB00674B01 /* Auth */ = {
+		14339F052D72E7AF003E06CD /* Mitr */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Auth;
+			exceptions = (
+			);
+			path = Mitr;
 			sourceTree = "<group>";
 		};
-		141DE87C2D6FDC5700674B01 /* Packages */ = {
+		14339F162D72E7B3003E06CD /* MitrTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Packages;
+			exceptions = (
+			);
+			path = MitrTests;
 			sourceTree = "<group>";
 		};
-		143C8B052D6F7F9C0070CA24 /* Mitra */ = {
+		14339F202D72E7B3003E06CD /* MitrUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Mitra;
-			sourceTree = "<group>";
-		};
-		143C8B1B2D6F7FA60070CA24 /* MitraTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MitraTests;
-			sourceTree = "<group>";
-		};
-		143C8B252D6F7FA60070CA24 /* MitraUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MitraUITests;
+			exceptions = (
+			);
+			path = MitrUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		143C8B002D6F7F9C0070CA24 /* Frameworks */ = {
+		14339F002D72E7AF003E06CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A71E41891A1F32AF733DD0E3 /* Pods_Mitra.framework in Frameworks */,
+				B22DFCB21C67035DB9E12939 /* Pods_Mitr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		143C8B152D6F7FA60070CA24 /* Frameworks */ = {
+		14339F102D72E7B3003E06CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD8A8BBAD2B1FF655379D2FB /* Pods_MitraTests.framework in Frameworks */,
+				DCC3CBA2ABA050C82492D8C4 /* Pods_MitrTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		143C8B1F2D6F7FA60070CA24 /* Frameworks */ = {
+		14339F1A2D72E7B3003E06CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11CA0E03A33846847DEC648C /* Pods_Mitra_MitraUITests.framework in Frameworks */,
+				091870AC03241FE022E04587 /* Pods_Mitr_MitrUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		143C8AFA2D6F7F9C0070CA24 = {
+		14339EFA2D72E7AF003E06CD = {
 			isa = PBXGroup;
 			children = (
-				141DE86B2D6FD9EB00674B01 /* Auth */,
-				143C8B052D6F7F9C0070CA24 /* Mitra */,
-				143C8B1B2D6F7FA60070CA24 /* MitraTests */,
-				143C8B252D6F7FA60070CA24 /* MitraUITests */,
-				143C8B742D6F872A0070CA24 /* GoogleService-Info.plist */,
-				143C8B492D6F81E80070CA24 /* .gitignore */,
-				141DE87C2D6FDC5700674B01 /* Packages */,
-				143C8B042D6F7F9C0070CA24 /* Products */,
-				670B6BFFCCA4700608046849 /* Pods */,
-				37C75C65EF7A07EDDCCE1EA2 /* Frameworks */,
+				14339F052D72E7AF003E06CD /* Mitr */,
+				14339F162D72E7B3003E06CD /* MitrTests */,
+				14339F202D72E7B3003E06CD /* MitrUITests */,
+				14339F042D72E7AF003E06CD /* Products */,
+				8E26E7B10BCE03D741C30764 /* Pods */,
+				AB23F7127A9248331224A864 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		143C8B042D6F7F9C0070CA24 /* Products */ = {
+		14339F042D72E7AF003E06CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				143C8B032D6F7F9C0070CA24 /* Mitra.app */,
-				143C8B182D6F7FA60070CA24 /* MitraTests.xctest */,
-				143C8B222D6F7FA60070CA24 /* MitraUITests.xctest */,
+				14339F032D72E7AF003E06CD /* Mitr.app */,
+				14339F132D72E7B3003E06CD /* MitrTests.xctest */,
+				14339F1D2D72E7B3003E06CD /* MitrUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37C75C65EF7A07EDDCCE1EA2 /* Frameworks */ = {
+		8E26E7B10BCE03D741C30764 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				44F45BC853D6FA4F82FF8570 /* Pods_Mitra.framework */,
-				BA5CA26184AC187CF8D58664 /* Pods_Mitra_MitraUITests.framework */,
-				1D78669A5A6F4AD8ABA5FFBB /* Pods_MitraTests.framework */,
+				6E81D7FA8D765A747057093A /* Pods-Mitr.debug.xcconfig */,
+				7CACC59EF72DEF152843D828 /* Pods-Mitr.release.xcconfig */,
+				C58757B5C1BF72433232F6EB /* Pods-Mitr-MitrUITests.debug.xcconfig */,
+				C855DF76180D7AF4A1780C2B /* Pods-Mitr-MitrUITests.release.xcconfig */,
+				8C35C802E92300C3DB11CAE7 /* Pods-MitrTests.debug.xcconfig */,
+				A5E5021430D70F7EB4386C28 /* Pods-MitrTests.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		670B6BFFCCA4700608046849 /* Pods */ = {
+		AB23F7127A9248331224A864 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9E212054F2D91DC34F1522C3 /* Pods-Mitra.debug.xcconfig */,
-				E808B683EEB94D21D8FD8968 /* Pods-Mitra.release.xcconfig */,
-				0903266C867E2A453EDD8D7D /* Pods-Mitra-MitraUITests.debug.xcconfig */,
-				BB886AAC7525896774DD8BC1 /* Pods-Mitra-MitraUITests.release.xcconfig */,
-				A6407D9747BF79CF9A07E47D /* Pods-MitraTests.debug.xcconfig */,
-				BE439D242371306BC61E5AFB /* Pods-MitraTests.release.xcconfig */,
+				C54EE351ED9DCBA9C018F9D6 /* Pods_Mitr.framework */,
+				681D1FAFFB09A112F9662F48 /* Pods_Mitr_MitrUITests.framework */,
+				75B46E7AC8979971C0149FB3 /* Pods_MitrTests.framework */,
 			);
-			path = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		143C8B022D6F7F9C0070CA24 /* Mitra */ = {
+		14339F022D72E7AF003E06CD /* Mitr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 143C8B2C2D6F7FA60070CA24 /* Build configuration list for PBXNativeTarget "Mitra" */;
+			buildConfigurationList = 14339F272D72E7B3003E06CD /* Build configuration list for PBXNativeTarget "Mitr" */;
 			buildPhases = (
-				AAF09E94D4F6974DE826F6D4 /* [CP] Check Pods Manifest.lock */,
-				143C8AFF2D6F7F9C0070CA24 /* Sources */,
-				143C8B002D6F7F9C0070CA24 /* Frameworks */,
-				143C8B012D6F7F9C0070CA24 /* Resources */,
-				E9E74BF8C5A3AE3176822465 /* [CP] Embed Pods Frameworks */,
+				7D431C9052FCE710D0CF144D /* [CP] Check Pods Manifest.lock */,
+				14339EFF2D72E7AF003E06CD /* Sources */,
+				14339F002D72E7AF003E06CD /* Frameworks */,
+				14339F012D72E7AF003E06CD /* Resources */,
+				DA3F9C877D3BAE4412600EF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				141DE86B2D6FD9EB00674B01 /* Auth */,
-				141DE87C2D6FDC5700674B01 /* Packages */,
-				143C8B052D6F7F9C0070CA24 /* Mitra */,
+				14339F052D72E7AF003E06CD /* Mitr */,
 			);
-			name = Mitra;
-			productName = Mitra;
-			productReference = 143C8B032D6F7F9C0070CA24 /* Mitra.app */;
+			name = Mitr;
+			productName = Mitr;
+			productReference = 14339F032D72E7AF003E06CD /* Mitr.app */;
 			productType = "com.apple.product-type.application";
 		};
-		143C8B172D6F7FA60070CA24 /* MitraTests */ = {
+		14339F122D72E7B3003E06CD /* MitrTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 143C8B2F2D6F7FA60070CA24 /* Build configuration list for PBXNativeTarget "MitraTests" */;
+			buildConfigurationList = 14339F2A2D72E7B3003E06CD /* Build configuration list for PBXNativeTarget "MitrTests" */;
 			buildPhases = (
-				AEC818F8B154EDDC8D3D815B /* [CP] Check Pods Manifest.lock */,
-				143C8B142D6F7FA60070CA24 /* Sources */,
-				143C8B152D6F7FA60070CA24 /* Frameworks */,
-				143C8B162D6F7FA60070CA24 /* Resources */,
+				7083E53F89A75F30D1622383 /* [CP] Check Pods Manifest.lock */,
+				14339F0F2D72E7B3003E06CD /* Sources */,
+				14339F102D72E7B3003E06CD /* Frameworks */,
+				14339F112D72E7B3003E06CD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				143C8B1A2D6F7FA60070CA24 /* PBXTargetDependency */,
+				14339F152D72E7B3003E06CD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				143C8B1B2D6F7FA60070CA24 /* MitraTests */,
+				14339F162D72E7B3003E06CD /* MitrTests */,
 			);
-			name = MitraTests;
-			productName = MitraTests;
-			productReference = 143C8B182D6F7FA60070CA24 /* MitraTests.xctest */;
+			name = MitrTests;
+			productName = MitrTests;
+			productReference = 14339F132D72E7B3003E06CD /* MitrTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		143C8B212D6F7FA60070CA24 /* MitraUITests */ = {
+		14339F1C2D72E7B3003E06CD /* MitrUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 143C8B322D6F7FA60070CA24 /* Build configuration list for PBXNativeTarget "MitraUITests" */;
+			buildConfigurationList = 14339F2D2D72E7B3003E06CD /* Build configuration list for PBXNativeTarget "MitrUITests" */;
 			buildPhases = (
-				A2E3DEC9BC38D4BE24427C01 /* [CP] Check Pods Manifest.lock */,
-				143C8B1E2D6F7FA60070CA24 /* Sources */,
-				143C8B1F2D6F7FA60070CA24 /* Frameworks */,
-				143C8B202D6F7FA60070CA24 /* Resources */,
-				009589D9215C61EA0C3702E2 /* [CP] Embed Pods Frameworks */,
+				D89EAE3DDA9E40B60426E232 /* [CP] Check Pods Manifest.lock */,
+				14339F192D72E7B3003E06CD /* Sources */,
+				14339F1A2D72E7B3003E06CD /* Frameworks */,
+				14339F1B2D72E7B3003E06CD /* Resources */,
+				C6EAA3936012BCAF8D58F8F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				143C8B242D6F7FA60070CA24 /* PBXTargetDependency */,
+				14339F1F2D72E7B3003E06CD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				143C8B252D6F7FA60070CA24 /* MitraUITests */,
+				14339F202D72E7B3003E06CD /* MitrUITests */,
 			);
-			name = MitraUITests;
-			productName = MitraUITests;
-			productReference = 143C8B222D6F7FA60070CA24 /* MitraUITests.xctest */;
+			name = MitrUITests;
+			productName = MitrUITests;
+			productReference = 14339F1D2D72E7B3003E06CD /* MitrUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		143C8AFB2D6F7F9C0070CA24 /* Project object */ = {
+		14339EFB2D72E7AF003E06CD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					143C8B022D6F7F9C0070CA24 = {
+					14339F022D72E7AF003E06CD = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					143C8B172D6F7FA60070CA24 = {
+					14339F122D72E7B3003E06CD = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 143C8B022D6F7F9C0070CA24;
+						TestTargetID = 14339F022D72E7AF003E06CD;
 					};
-					143C8B212D6F7FA60070CA24 = {
+					14339F1C2D72E7B3003E06CD = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 143C8B022D6F7F9C0070CA24;
+						TestTargetID = 14339F022D72E7AF003E06CD;
 					};
 				};
 			};
-			buildConfigurationList = 143C8AFE2D6F7F9C0070CA24 /* Build configuration list for PBXProject "Mitra" */;
+			buildConfigurationList = 14339EFE2D72E7AF003E06CD /* Build configuration list for PBXProject "Mitr" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 143C8AFA2D6F7F9C0070CA24;
+			mainGroup = 14339EFA2D72E7AF003E06CD;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 143C8B042D6F7F9C0070CA24 /* Products */;
+			productRefGroup = 14339F042D72E7AF003E06CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				143C8B022D6F7F9C0070CA24 /* Mitra */,
-				143C8B172D6F7FA60070CA24 /* MitraTests */,
-				143C8B212D6F7FA60070CA24 /* MitraUITests */,
+				14339F022D72E7AF003E06CD /* Mitr */,
+				14339F122D72E7B3003E06CD /* MitrTests */,
+				14339F1C2D72E7B3003E06CD /* MitrUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		143C8B012D6F7F9C0070CA24 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				143C8B752D6F872A0070CA24 /* GoogleService-Info.plist in Resources */,
-				143C8B4A2D6F81F00070CA24 /* .gitignore in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		143C8B162D6F7FA60070CA24 /* Resources */ = {
+		14339F012D72E7AF003E06CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		143C8B202D6F7FA60070CA24 /* Resources */ = {
+		14339F112D72E7B3003E06CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14339F1B2D72E7B3003E06CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -296,24 +281,68 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		009589D9215C61EA0C3702E2 /* [CP] Embed Pods Frameworks */ = {
+		7083E53F89A75F30D1622383 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Mitra-MitraUITests/Pods-Mitra-MitraUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MitrTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D431C9052FCE710D0CF144D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mitr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6EAA3936012BCAF8D58F8F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mitr-MitrUITests/Pods-Mitr-MitrUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Mitra-MitraUITests/Pods-Mitra-MitraUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Mitr-MitrUITests/Pods-Mitr-MitrUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mitra-MitraUITests/Pods-Mitra-MitraUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mitr-MitrUITests/Pods-Mitr-MitrUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A2E3DEC9BC38D4BE24427C01 /* [CP] Check Pods Manifest.lock */ = {
+		D89EAE3DDA9E40B60426E232 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,92 +357,48 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Mitra-MitraUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Mitr-MitrUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AAF09E94D4F6974DE826F6D4 /* [CP] Check Pods Manifest.lock */ = {
+		DA3F9C877D3BAE4412600EF9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Mitra-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AEC818F8B154EDDC8D3D815B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MitraTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E9E74BF8C5A3AE3176822465 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Mitra/Pods-Mitra-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Mitr/Pods-Mitr-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Mitra/Pods-Mitra-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Mitr/Pods-Mitr-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mitra/Pods-Mitra-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mitr/Pods-Mitr-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		143C8AFF2D6F7F9C0070CA24 /* Sources */ = {
+		14339EFF2D72E7AF003E06CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		143C8B142D6F7FA60070CA24 /* Sources */ = {
+		14339F0F2D72E7B3003E06CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		143C8B1E2D6F7FA60070CA24 /* Sources */ = {
+		14339F192D72E7B3003E06CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -423,20 +408,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		143C8B1A2D6F7FA60070CA24 /* PBXTargetDependency */ = {
+		14339F152D72E7B3003E06CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 143C8B022D6F7F9C0070CA24 /* Mitra */;
-			targetProxy = 143C8B192D6F7FA60070CA24 /* PBXContainerItemProxy */;
+			target = 14339F022D72E7AF003E06CD /* Mitr */;
+			targetProxy = 14339F142D72E7B3003E06CD /* PBXContainerItemProxy */;
 		};
-		143C8B242D6F7FA60070CA24 /* PBXTargetDependency */ = {
+		14339F1F2D72E7B3003E06CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 143C8B022D6F7F9C0070CA24 /* Mitra */;
-			targetProxy = 143C8B232D6F7FA60070CA24 /* PBXContainerItemProxy */;
+			target = 14339F022D72E7AF003E06CD /* Mitr */;
+			targetProxy = 14339F1E2D72E7B3003E06CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		143C8B2A2D6F7FA60070CA24 /* Debug */ = {
+		14339F252D72E7B3003E06CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -499,7 +484,7 @@
 			};
 			name = Debug;
 		};
-		143C8B2B2D6F7FA60070CA24 /* Release */ = {
+		14339F262D72E7B3003E06CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -555,83 +540,69 @@
 			};
 			name = Release;
 		};
-		143C8B2D2D6F7FA60070CA24 /* Debug */ = {
+		14339F282D72E7B3003E06CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E212054F2D91DC34F1522C3 /* Pods-Mitra.debug.xcconfig */;
+			baseConfigurationReference = 6E81D7FA8D765A747057093A /* Pods-Mitr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Mitra/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Mitr/Preview Content\"";
 				DEVELOPMENT_TEAM = 2J897GT7TY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Mitra;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Hello.MyMitra;
+				PRODUCT_BUNDLE_IDENTIFIER = MitrConnect.Mitr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		143C8B2E2D6F7FA60070CA24 /* Release */ = {
+		14339F292D72E7B3003E06CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E808B683EEB94D21D8FD8968 /* Pods-Mitra.release.xcconfig */;
+			baseConfigurationReference = 7CACC59EF72DEF152843D828 /* Pods-Mitr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Mitra/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Mitr/Preview Content\"";
 				DEVELOPMENT_TEAM = 2J897GT7TY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Mitra;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Hello.MyMitra;
+				PRODUCT_BUNDLE_IDENTIFIER = MitrConnect.Mitr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		143C8B302D6F7FA60070CA24 /* Debug */ = {
+		14339F2B2D72E7B3003E06CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6407D9747BF79CF9A07E47D /* Pods-MitraTests.debug.xcconfig */;
+			baseConfigurationReference = 8C35C802E92300C3DB11CAE7 /* Pods-MitrTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -640,18 +611,18 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = StavanGandhi.MitraTests;
+				PRODUCT_BUNDLE_IDENTIFIER = MitrConnect.MitrTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mitra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mitra";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mitr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mitr";
 			};
 			name = Debug;
 		};
-		143C8B312D6F7FA60070CA24 /* Release */ = {
+		14339F2C2D72E7B3003E06CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE439D242371306BC61E5AFB /* Pods-MitraTests.release.xcconfig */;
+			baseConfigurationReference = A5E5021430D70F7EB4386C28 /* Pods-MitrTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -660,91 +631,91 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = StavanGandhi.MitraTests;
+				PRODUCT_BUNDLE_IDENTIFIER = MitrConnect.MitrTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mitra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mitra";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mitr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mitr";
 			};
 			name = Release;
 		};
-		143C8B332D6F7FA60070CA24 /* Debug */ = {
+		14339F2E2D72E7B3003E06CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0903266C867E2A453EDD8D7D /* Pods-Mitra-MitraUITests.debug.xcconfig */;
+			baseConfigurationReference = C58757B5C1BF72433232F6EB /* Pods-Mitr-MitrUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2J897GT7TY;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = StavanGandhi.MitraUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = MitrConnect.MitrUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Mitra;
+				TEST_TARGET_NAME = Mitr;
 			};
 			name = Debug;
 		};
-		143C8B342D6F7FA60070CA24 /* Release */ = {
+		14339F2F2D72E7B3003E06CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB886AAC7525896774DD8BC1 /* Pods-Mitra-MitraUITests.release.xcconfig */;
+			baseConfigurationReference = C855DF76180D7AF4A1780C2B /* Pods-Mitr-MitrUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2J897GT7TY;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = StavanGandhi.MitraUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = MitrConnect.MitrUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Mitra;
+				TEST_TARGET_NAME = Mitr;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		143C8AFE2D6F7F9C0070CA24 /* Build configuration list for PBXProject "Mitra" */ = {
+		14339EFE2D72E7AF003E06CD /* Build configuration list for PBXProject "Mitr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				143C8B2A2D6F7FA60070CA24 /* Debug */,
-				143C8B2B2D6F7FA60070CA24 /* Release */,
+				14339F252D72E7B3003E06CD /* Debug */,
+				14339F262D72E7B3003E06CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		143C8B2C2D6F7FA60070CA24 /* Build configuration list for PBXNativeTarget "Mitra" */ = {
+		14339F272D72E7B3003E06CD /* Build configuration list for PBXNativeTarget "Mitr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				143C8B2D2D6F7FA60070CA24 /* Debug */,
-				143C8B2E2D6F7FA60070CA24 /* Release */,
+				14339F282D72E7B3003E06CD /* Debug */,
+				14339F292D72E7B3003E06CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		143C8B2F2D6F7FA60070CA24 /* Build configuration list for PBXNativeTarget "MitraTests" */ = {
+		14339F2A2D72E7B3003E06CD /* Build configuration list for PBXNativeTarget "MitrTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				143C8B302D6F7FA60070CA24 /* Debug */,
-				143C8B312D6F7FA60070CA24 /* Release */,
+				14339F2B2D72E7B3003E06CD /* Debug */,
+				14339F2C2D72E7B3003E06CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		143C8B322D6F7FA60070CA24 /* Build configuration list for PBXNativeTarget "MitraUITests" */ = {
+		14339F2D2D72E7B3003E06CD /* Build configuration list for PBXNativeTarget "MitrUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				143C8B332D6F7FA60070CA24 /* Debug */,
-				143C8B342D6F7FA60070CA24 /* Release */,
+				14339F2E2D72E7B3003E06CD /* Debug */,
+				14339F2F2D72E7B3003E06CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 143C8AFB2D6F7F9C0070CA24 /* Project object */;
+	rootObject = 14339EFB2D72E7AF003E06CD /* Project object */;
 }

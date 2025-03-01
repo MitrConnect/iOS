@@ -1,14 +1,14 @@
 //
-//  MitraTests.swift
-//  MitraTests
+//  MitrTests.swift
+//  MitrTests
 //
-//  Created by Stavan Gandhi on 2/26/25.
+//  Created by Stavan Gandhi on 3/1/25.
 //
 
 import Testing
-@testable import Mitra
+@testable import Mitr
 
-struct MitraTests {
+struct MitrTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

@@ -1,14 +1,24 @@
 //
 //  ContentView.swift
-//  Mitra
+//  Mitr
 //
-//  Created by Stavan Gandhi on 2/26/25.
+//  Created by Stavan Gandhi on 3/1/25.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+        .padding()
     }
+}
+
+#Preview {
+    ContentView()
 }
