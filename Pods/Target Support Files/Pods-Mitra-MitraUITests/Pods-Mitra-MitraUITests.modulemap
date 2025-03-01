@@ -1,0 +1,6 @@
+framework module Pods_Mitra_MitraUITests {
+  umbrella header "Pods-Mitra-MitraUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
