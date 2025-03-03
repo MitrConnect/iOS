@@ -6,7 +6,7 @@
 .DS_Store
 
 ## Ignore Firebase Secret files
-GoogleService-Info.plist
+*/GoogleService-Info.plist
 
 ## Ignore Test files
 MitrTests
