@@ -7,15 +7,20 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    
+    @EnvironmentObject var userAuth: UserAuth
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hey \(userAuth.profile.displayName)!")
+            Button(action: {
+                userAuth.signOut()
+            }) {
+                Text("Sign Out")
+            }
         }
-        .padding()
     }
 }
 

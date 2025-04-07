@@ -10,7 +10,9 @@ target 'Mitr' do
   pod 'Firebase/Firestore'
   pod 'Firebase/Storage'
   pod 'Firebase/Database'
-
+  pod 'FirebaseAnalytics'
+  pod ‘Firebase/AnalyticsWithoutAdIdSupport’
+  # pod 'Google-Mobile-Ads-SDK'
 
   target 'MitrTests' do
     inherit! :search_paths
